@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+section {
+  width: 800px;
+  margin: 20px auto;
+  background-color: rgb(227, 179, 179);
+}
+h2 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+article {
+  width: 350px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  float: left;
+}
+.house {
+  background-color: aquamarine;
+}
+footer {
+  width: 80%;
+  height: 50px;
+  clear: both;
+  margin: 0 auto;
+}
+footer > p {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  line-height: 50px;
+  font-weight: 700;
+}
+ul {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  list-style-image: url(../images/KakaoTalk_20230504_110740086.png);
+}
+ul li {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  float: left;
+  /*border: 1px solid #846f6f;*/
+}
